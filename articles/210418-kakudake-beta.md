@@ -1,8 +1,8 @@
 ---
-title: "エンジニアによるラノベ執筆のデプロイ"
+title: "エンジニアによるラノベ執筆におけるデプロイ"
 emoji: "📖"
 type: "idea"
-topics: ["サービス開発", "Next", "SpringBoot"]
+topics: ["サービス開発", "nextjs", "SpringBoot"]
 published: true
 ---
 

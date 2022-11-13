@@ -10,7 +10,7 @@ published: true
 
 https://twitter.com/jaguring1/status/1591609069244383232
 
-NovelAI よりも凄い AI イラスト生成モデルがどうやら出たらしいぞ！！
+**NovelAI よりも凄い AI イラスト生成モデルがどうやら出たらしいぞ！！**
 
 しかも `huggingface` にモデルが上がっているようで、`StableDiffusion` を使ってモデルを差し替えれば動くらしいということを知って、試してみたので、その過程を記載しておきます。この記事は基本的に `StableDiffusion` をモデルを差し替えて試してみるのとほぼ同等で、[Google Colab で はじめる Trinart Stable Diffusion](https://note.com/npaka/n/nc8c428c1bd01) の記事を参考にさせていただきました。大変ありがとうございます。
 

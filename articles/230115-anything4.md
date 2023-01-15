@@ -8,7 +8,7 @@ published: true
 
 # はじめに
 
-昨今、画像生成 AI の進化が凄まじい。 StableDiffusion 登場からの、NovelAI などの様々なモデルの発明、そこから様々なチームが様々なモデルを発明し、どんどんと画像生成 AI の制度が向上しています。最近 Anything の最新バージョンである AnythingV4 (V4.5) がリリースされ、更に一歩画像生成の制度とバリエーションが増えました。この記事は [AnythingV4](https://huggingface.co/andite/anything-v4.0) を [Google Colab](https://colab.research.google.com/?hl=ja) で動かし [StableDiffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) で利用して、便利に画像生成を行う手順を紹介します。ベースとしては、以前 AnythingV3 を紹介した[過去記事](https://zenn.dev/uakihir0/articles/221113-anything3) を参照してください。
+**昨今、画像生成 AI の進化が凄まじい。** StableDiffusion 登場からの、NovelAI などの様々なモデルの発明、そこから様々なチームが様々なモデルを発明し、どんどんと画像生成 AI の制度が向上しています。最近 Anything の最新バージョンである **AnythingV4** (V4.5) がリリースされ、更に一歩画像生成の制度とバリエーションが増えました。この記事は [AnythingV4](https://huggingface.co/andite/anything-v4.0) を [Google Colab](https://colab.research.google.com/?hl=ja) で動かし [StableDiffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) で利用して、便利に画像生成を行う手順を紹介します。ベースとしては、以前 AnythingV3 を紹介した[過去記事](https://zenn.dev/uakihir0/articles/221113-anything3) を参照してください。
 
 ## 注意
 
@@ -29,12 +29,11 @@ AnythingV4 のモデルについては出自については AnythingV3 同様に
 
 ### 実行環境の整備
 
-次に、コードセルを追加し、以下の StableDiffusion WebUI をインストールし、加えて、AnythingV4 のモデルをダウンロードしてきます。
+コードセルを追加し、StableDiffusion WebUI をクローンしてきて、追加で AnythingV4 のモデルをダウンロードします。コードとしては以下のようになります。Google Colab ではメモリが多く使用できないので、`pruned` 版を利用します。
 
 ```python
 !git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
 %cd stable-diffusion-webui
-#@title AnythingV4
 !wget https://huggingface.co/andite/anything-v4.0/resolve/main/anything-v4.0-pruned.ckpt -O /content/stable-diffusion-webui/model.ckpt
 !wget https://huggingface.co/andite/anything-v4.0/resolve/main/anything-v4.0.vae.pt -O /content/stable-diffusion-webui/model.vae.pt
 ```
@@ -49,7 +48,7 @@ AnythingV4 のモデルについては出自については AnythingV3 同様に
 
 ### 実行
 
-StableDiffusion WebUI の画面は以下のようになっています。プロンプトと呼ばれる、どのような画像を生成して欲しいかを指定する呪文を入力し、任意でネガティブプロンプトと呼ばれる、どのような画像を生成してほしくないかを指定する呪文を入力し、生成ボタンを推すととりあえず画像が生成されます。[この画像](https://majinai.art/i/AHZzOpi) のプロンプト等をお借りして試しました。
+StableDiffusion WebUI の画面は以下のようになっています。プロンプトと呼ばれる、どのような画像を生成して欲しいかを指定する呪文を入力し、任意でネガティブプロンプトと呼ばれる、どのような画像を生成してほしくないかを指定する呪文を入力し、生成ボタンを押すととりあえず画像が生成されます。[この画像](https://majinai.art/i/AHZzOpi) のプロンプト等をお借りして試しました。
 
 ![](/images/anything/sdwebui.png)
 

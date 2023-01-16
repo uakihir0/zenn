@@ -6,6 +6,10 @@ topics: ["Anything", "AI", "StableDiffusion"]
 published: true
 ---
 
+# 最新版の AnythingV4 が出たので記事追加書きました！ (追記)
+
+https://zenn.dev/uakihir0/articles/230115-anything4
+
 # はじめに
 
 https://twitter.com/jaguring1/status/1591609069244383232

@@ -10,11 +10,13 @@ published: true
 
 **昨今、画像生成 AI の進化が凄まじい。** StableDiffusion 登場からの、NovelAI などの様々なモデルの発明、そこから様々なチームが様々なモデルを発明し、どんどんと画像生成 AI の制度が向上しています。特に、最近の主流として、StableDiffusion モデルを色々混ぜ合わせて、独自のモデルを作り、それを [Civital](https://civitai.com/) 等で公開し評価し、更にモデルをブラッシュアップしていくという、進化のスパイラルが起きています。今まで、過去の記事においてクラウド上で、StableDiffusion を実行して AI イラストを作成する方法を紹介 ([参考](https://zenn.dev/uakihir0/articles/230115-anything4)) してきましたが、ここまで様々なモデルが存在すると、様々なモデルをダウンロードしてきて、切り替えて使用する、というケースも増えてくるかも知れません。ここでは、Windows の環境ではなく、AppleSillicon (M1,M2) 搭載の Mac において、比較的簡単技術的知識が浅い人でも StableDiffusion が実行できる３つの方法について記載していきます。
 
-## 留意事項
+## 注意事項
 
 StableDiffusion や画像イラスト生成の全般的な知識については、この記事では解説しません。以前自分が記載した過去記事を参考に、ある程度クラウド上で試した後に、ローカルでも試してみたいという方は、本記事を参考にしてみてください。過去記事については以下になります。
 
 https://zenn.dev/uakihir0/articles/230115-anything4
+
+また、先出しでの紹介になりますが、[MochiDiffusion](https://github.com/godly-devotion/MochiDiffusion) も簡単に StableDiffusion を実行できる候補には上がりますが、CoreML (MacOS 向けの MLKit) 向けにモデルを変換しないといけないことから、今回の選考からは除外しています。モデル変換を行わずに実行できることは前提条件です。
 
 ## 方法 1: Draw Things を利用する
 

@@ -1,5 +1,5 @@
 ---
-title: "「Bluesky」はクライアントエンジニアにとって最高の遊び場"
+title: "Bluesky はエンジニアにとって最高の遊び場"
 emoji: "⛲"
 type: "idea"
 topics: ["sns", "Bluesky"]

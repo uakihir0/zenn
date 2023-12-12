@@ -56,13 +56,13 @@ https://www.youtube.com/watch?v=PMfn9_nTDbM
 
 ### 概要
 
-![](/images/reinvent2023/key2_0.png)
+![](/images/reinvent2023/key2_1.png)
 
 AWS の SEO である Adam Selipsky によるキーノートです。このキーノートは re:Invent におけるメインのキーノートで、広範囲に渡る AWS の新サービスが発表されました。[`Amazon S3 Express One Zone`](https://dev.classmethod.jp/articles/amazon-s3-one-zone-storage-class-compare/) が発表され、非常に高頻度でアクセスされるファイルに対してのストレージとしての選択肢が増えました。また、Graviton プロセッサーの進化として [`Graviton4`](https://cloud.watch.impress.co.jp/docs/event/1550612.html) が発表されました。また、AI 学習用のアクセラレータ Trainium の最新製品として、`Trainum2` が発表され、AI 学習のさらなる高速化が可能になりました。また、生成 AI 関連では、`Amazon Bedrock` の FineTuning 等のカスタマイズ手法の提供であったり、また今回の目玉と言っていい **[`Amazon Q`](https://dev.classmethod.jp/articles/amazon-q-lineup/) が発表され、AWS を用いた様々なワークロードの中で、Amazon Q を用いた解決を行うことができるようになりました。**
 
 ### 感想
 
-![](/images/reinvent2023/key2_1.png)
+![](/images/reinvent2023/key2_0.png)
 
 二日目の朝食後にこのキーノートに参加するために並び始めましたが、メインのキーノートということもあり、非常に多くの人は既に待っており、今か今かとキーノートが開始されるのを待ちわびていました。初日のキーノート同様にロックのカバーバンドが会場を予め温めていて、会場は開始前から盛り上がっていました。発表内容の半分程が生成 AI が占めており、その中でも `Amazon Q` の発表は多くの時間を使用していました。`Amazon Q` は AWS コンソールにおいて質問に答えてくれる機能だけではなく、AWS クライアントライブラリを用いたコード作成支援だったり、ビジネス上のナレッジツール等をまとめてビジネスに関する質問に答えてくれる機能であったりと、こういうの欲しいでしょ？ と言わんばかりの機能を提供してくれています。生成 AI で先に欲しいだろうという部分を先回りで提供してくれるあたり Amazon は流石だなと思わせられました。また、`Amazon Bedrock` については、PreTraining、FineTuning、RAG といった生成 AI を自分達のビジネスに合わせることのできる機能が追加され、いよいよ実用的になってきたと思いました。
 
@@ -76,6 +76,8 @@ AWS の VP である Dr. Swami Sivasubramanian によるキーノートです。
 
 ### 感想
 
+![](/images/reinvent2023/key3_0.png)
+
 このキーノートは、Venetian のキーノート会場ではなく、少し外れにあるホテルの Mandalay bay のサテライト会場である Content Hub から見ました。(みたいセッションがこのホテルだったのと、そのセッションとキーノートの時間が被っていたため) このキーノートを聞いたタイミングでは、あまり生成 AI に対しての理解が進んでおらず、発表された内容について、なんとなく嬉しいんだろうなぁ、と聞きながら微妙な感想を抱いていたんですが、他のセッションを聞いたりしていく中で、発表された内容の有り難みに気付くようになりました。`Anthropic Claude 2.1` は長いプロンプトでも読んでくれるため、RAG などでよりよい回答を出すことができる可能性が高まることや、各種ベクトルデータベースについても同様に RAG の過程においてよく使用されるため、より生成 AI のワークロードを AWS に容易に構築できるようになったという事です。PartyRock は単純に面白そう。無料で使えるので色々試してみようよ思います。
 
 ## Keynote with Dr. Werner Vogels
@@ -84,9 +86,13 @@ https://www.youtube.com/watch?v=UTRBVPvzt9w&t=16s
 
 ### 概要
 
+![](/images/reinvent2023/key4_1.png)
+
 AWS の CTO である Dr. Werner Vogels によるキーノートです。このキーノートでは、前半は **[The Frugal Architect](https://thefrugalarchitect.com/) というコストを考慮した持続的なアーキテクチャを作るにはどのようなことを意識すべき** か、を紹介しつつその中で、**システムのオブザーバビリティを高める [`AWS Management Console myApplications`](https://aws.amazon.com/jp/blogs/aws/new-myapplications-in-the-aws-management-console-simplifies-managing-your-application-resources/) と [`Amazon CloudWatch Application Signals`](https://aws.amazon.com/jp/blogs/aws/amazon-cloudwatch-application-signals-for-automatic-instrumentation-of-your-applications-preview/)** を発表しました。後半では、未来を予想すると題して、生成 AI についてその活用事例を実際に本人が行った取り組み等を通じて紹介されました。その中で [`Amazon SageMaker Studio Code Editor`](https://aws.amazon.com/jp/blogs/aws/amazon-sagemaker-studio-adds-web-based-interface-code-editor-flexible-workspaces-and-streamlines-user-onboarding/) など生成 AI のワークロードの作成を支援するためのツール群が幾つか発表されました。
 
 ### 感想
+
+![](/images/reinvent2023/key4_0.png)
 
 自分はあまり詳しくなかったので re:Invent に参加するまで知りませんでしたが、Dr. Werner Vogels さんは名物のおじさんらしく、**前日ホテルに帰る前に、近くを歩いていたクラスメソッドさんの参加者が「俺の推しだから早起きしてキーノート並ぶぜ」みたいなことを言っていました。** (クラスメソッドさんは [DevelopersIO](https://dev.classmethod.jp/) を運営している AWS 通の会社で、今回の re:Invent にも 50 人以上の方が参加したらしい) キーノートの内容も示唆に富んだ内容で、コストと持続可能なアーキテクチャを意識しようという内容で、やや耳の痛い話でした。もちろん会社によって優先すべきトレードオフの項目が異なるとは思いますが、コストはその中でも重要な位置付けとしてあると再認識しました。また、後半の話の中で生成 AI を使った取り組みについて「自分でもできたんだからあなた達でもできる」と話していたのは強く印象に残っています。本当にそうかどうかはさておき、一歩踏み出すことの大切さを改めて感じました。
 

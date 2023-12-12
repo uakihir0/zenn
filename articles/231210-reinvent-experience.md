@@ -3,7 +3,7 @@ title: "AWS re:Invent 2023 参加記録【体験編】"
 emoji: "🎪"
 type: "idea"
 topics: ["aws", "ai"]
-published: false
+published: true
 ---
 
 # はじめに
@@ -13,6 +13,8 @@ published: false
 https://zenn.dev/uakihir0/articles/231210-reinvent-general
 
 https://zenn.dev/uakihir0/articles/231210-reinvent-arekore
+
+https://www.uakihir0.com/blog/p/202312-reinvent-seeing/
 
 # 本記事について
 
@@ -173,3 +175,5 @@ GameDay と呼ばれるチームで競い合う形式のワークショップで
 https://zenn.dev/uakihir0/articles/231210-reinvent-general
 
 https://zenn.dev/uakihir0/articles/231210-reinvent-arekore
+
+https://www.uakihir0.com/blog/p/202312-reinvent-seeing/

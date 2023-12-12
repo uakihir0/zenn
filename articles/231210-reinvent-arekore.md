@@ -3,7 +3,7 @@ title: "AWS re:Invent 2023 参加記録【あれこれ編】"
 emoji: "🎪"
 type: "idea"
 topics: ["aws", "ai"]
-published: false
+published: true
 ---
 
 # はじめに
@@ -13,6 +13,8 @@ published: false
 https://zenn.dev/uakihir0/articles/231210-reinvent-general
 
 https://zenn.dev/uakihir0/articles/231210-reinvent-experience
+
+https://www.uakihir0.com/blog/p/202312-reinvent-seeing/
 
 ## 本記事について
 
@@ -77,3 +79,5 @@ EXPO は Venetian のコンベンションセンター奥にスペースがあ�
 https://zenn.dev/uakihir0/articles/231210-reinvent-general
 
 https://zenn.dev/uakihir0/articles/231210-reinvent-experience
+
+https://www.uakihir0.com/blog/p/202312-reinvent-seeing/

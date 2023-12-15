@@ -3,18 +3,16 @@ title: "AWS re:Invent 2023 参加記録【体験編】"
 emoji: "🎪"
 type: "idea"
 topics: ["aws", "ai"]
-published: true
+published: false
 ---
 
 # はじめに
 
-**AWS re:Invent 2023 に参加してきました。** AWS re:Invent は毎年開催されている AWS のカンファレンスで、今年も 11 月 27 日から 12 月 1 日までの 5 日間に渡って開催されました。この記事では自分がどのような体験をそのイベント内でしたかを中心に、備忘録として参加記録を書き残していきます。参加記録は４つに分かれており、キーノートなどイベントのメインとなる部分を集めた**全般編**と、自分の受けたセッションやワークショップについて記録を残した本ページである**体験編**と、re:Invent の様々なトピックを巡る**あれこれ編**、最後に観光などラスベガスの過ごし方を記録した**オフ編**に分かれています。
+**AWS re:Invent 2023 に参加してきました。** AWS re:Invent は毎年開催されている AWS のカンファレンスで、今年も 11 月 27 日から 12 月 1 日までの 5 日間に渡って開催されました。この記事では自分がどのような体験をそのイベント内でしたかを中心に、備忘録として参加記録を書き残していきます。参加記録は４つに分かれており、キーノートなどイベントのメインとなる部分を集めた**全般編**と、自分の受けたセッションやワークショップについて記録を残した本ページである**体験編**と、re:Invent の様々なトピックを巡る**あれこれ編**に分かれています。
 
 https://zenn.dev/uakihir0/articles/231210-reinvent-general
 
 https://zenn.dev/uakihir0/articles/231210-reinvent-arekore
-
-https://www.uakihir0.com/blog/p/202312-reinvent-seeing/
 
 # 本記事について
 
@@ -175,5 +173,3 @@ GameDay と呼ばれるチームで競い合う形式のワークショップで
 https://zenn.dev/uakihir0/articles/231210-reinvent-general
 
 https://zenn.dev/uakihir0/articles/231210-reinvent-arekore
-
-https://www.uakihir0.com/blog/p/202312-reinvent-seeing/

@@ -46,6 +46,7 @@ https://github.com/uakihir0/kmisskey
 #### Kotlin/JVM
 
 ```kotlin
+// Kotlin
 import work.socialhub.kmisskey.KmisskeyFactory
 import work.socialhub.kmisskey.api.request.i.IRequest
 ...
@@ -63,6 +64,7 @@ println(response.json)
 #### Kotlin/Native (iOS/MacOS)
 
 ```swift
+// Swift
 import kmisskey
 ...
 
@@ -79,6 +81,7 @@ print(response.json)
 #### Kotlin/JS (JavaScript)
 
 ```javascript
+// TypeScript
 import kmisskey from "kmisskey-js";
 import KmisskeyFactory = kmisskey.work.socialhub.kmisskey.KmisskeyFactory;
 import IRequest = kmisskey.work.socialhub.kmisskey.api.request.i.IRequest;

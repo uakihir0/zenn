@@ -1,5 +1,5 @@
 ---
-title: "Kotlin Multiplatform で作る クラスプラットフォームライブラリ"
+title: "Kotlin Multiplatform (KMP) で作るマルチプラットフォームライブラリ"
 emoji: "📖"
 type: "tech"
 topics: ["kotlin", "kotlin multiplatform", "kmp", "library"]

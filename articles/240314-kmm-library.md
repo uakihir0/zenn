@@ -2,7 +2,7 @@
 title: "Kotlin Multiplatform で作るクラスプラットフォームライブラリ"
 emoji: "📖"
 type: "tech"
-topics: ["kotlin", "kotlin multiplatform", "kmp", "library"], 
+topics: ["kotlin", "kotlin multiplatform", "kmp", "library"]
 published: true
 ---
 

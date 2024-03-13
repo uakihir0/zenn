@@ -10,7 +10,7 @@ published: true
 
 **みなさん、ライブラリ作ってますか？** 私はサービスを作る時に、ドメインを切り出せる時はできる限りライブラリとして取り出すのを意識しています。また、ライブラリが一般に有用な場合は OSS として公開したいと思っています。では、その時にどのような技術スタックを利用するのか？ そこで登場するのが [Kotlin Multiplatform] です。Kotlin Multiplatform は Kotlin を使って様々なプラットフォーム向けに動くものを作ることができるフレームワークです。モダンな言語である Kotlin でライブラリを書けば様々なプラットフォームで利用できるので、サーバーとフロントエンドでコードを共有できますし、OSS としても様々な言語で動くのは非常に魅力的なはずです。
 
-## Kotlin Multiplatform
+# Kotlin Multiplatform
 
 https://kotlinlang.org/docs/multiplatform.html
 
@@ -25,13 +25,13 @@ https://kotlinlang.org/docs/multiplatform.html
 
 このように、Kotlin Multiplatform でコードを記述すると、上記の環境で動くライブラリを作成することができます。とはいえ、Kotlin Multiplatform は Kotlin Multiplatform 向けに作られたライブラリでしか動作させることはできず、例えば Java で書かれたライブラリを Kotlin Multiplatform で利用することはできません。そのため、かなりライブラリを書く時に必要な機能を持った別のライブラリが存在せず、自分で作る必要があったりなど**実装が簡単にいかない部分が所々存在します。** ここではいくつかの実装のポイントを紹介していきます。(問題点が増えたら追記します)
 
-## 実装の難点
+# 実装の難点
 
-### 欲しい機能ライブラリがない！
+## 欲しい機能ライブラリがない！
 
 **どうしようもないです。** とはいえ、Kotlin の公式からライブラリが少し提供されているので、それを使って実現できる範囲は決して少なくないです。[AAkira/Kotlin-Multiplatform-Libraries](https://github.com/AAkira/Kotlin-Multiplatform-Libraries) に Kotlin Multiplatform で作成された有名なライブラリがいくつか存在しますが、特定の実行環境は対応していなかったりと、結構残念な気持ちになったりすることがあります。**が、それはチャンスと考えましょう！ 自分が実装して第一人者になりましょう！**
 
-### ドキュメントが全然ないんだけど
+## ドキュメントが全然ないんだけど
 
 本当にこれで、公式ドキュメント見てもあまりどう実装すればいいのか分からない。**いや、正確には実装はできるんだけど、どうデプロイすればいいか分からない。** とか、ビルドツールの Gradle の使い方が全然分からないというのが結構あるあるだと思います。どこを見ればいいか？ というと頑張って色々ググるしかないので、自分が作ったプロジェクトを貼るので是非参考にしてください。
 
@@ -39,11 +39,11 @@ https://github.com/uakihir0/kmisskey
 
 このライブラリは、国産 SNS である [Misskey](https://misskey-hub.net/ja/) のクライアントライブラリであり、Misskey の API をこのライブラリを用いて簡単に叩くことができます。上記に貼ったのは Kotlin Multiplatform のコードで、そのまま Kotlin/JVM 環境で動作させることができます。Kotlin/Native の iOS や MacOS 向けには上記の [kmisskey] ライブラリからビルドして出力した [kmisskey-cocoapods](https://github.com/uakihir0/kmisskey-cocoapods) を利用して Cocoapods からインストールできます。また、Kotlin/JS の JavaScript 向けには [kmisskey.js](https://github.com/uakihir0/kmisskey.js) を利用して npm からインストールできます。各々のビルド方法は Github Actions に記載されているので、Gradle を合わせて確認してみてください。
 
-#### (参考) どんなコードになるの？
+### (参考) ライブラリはどんな感じで使用できるの？
 
 実際に Kotlin Multiplatform で作成した [kmisskey] ライブラリは、以下のようなコードで実行することができます。このように、大体どの実行環境でも同じようなコードで実行することができるのは Kotlin Multiplatform の魅力の一つです。
 
-##### Kotlin/JVM
+#### Kotlin/JVM
 
 ```kotlin
 import work.socialhub.kmisskey.KmisskeyFactory
@@ -60,7 +60,7 @@ val response = misskey.accounts().i(IRequest())
 println(response.json)
 ```
 
-##### Kotlin/Native (iOS/MacOS)
+#### Kotlin/Native (iOS/MacOS)
 
 ```swift
 import kmisskey
@@ -76,7 +76,7 @@ let response = misskey.accounts().i(request: CoreIRequest())
 print(response.json)
 ```
 
-##### Kotlin/JS (JavaScript)
+#### Kotlin/JS (JavaScript)
 
 ```javascript
 import kmisskey from "kmisskey-js";
@@ -98,7 +98,7 @@ import IRequest = kmisskey.work.socialhub.kmisskey.api.request.i.IRequest;
       });
 ```
 
-### Kotlin/JS でのコルーチン動作
+## Kotlin/JS でのコルーチン動作
 
 Kotlin/JS のブラウザ向けにおいてはコルーチンの動作について難しい部分があります。**一番の難点は `runBlocking` の関数が Kotlin/JS にブラウザ向けビルドでは利用できません。**`runBlocking` は雑に表現すると非同期実行のコードを同期実行に変換するもので、`runBlocking` 内では非同期実行のコード (susupend 関数) を実行することができます。この非同期実行を同期実行に変換するのは、シングルスレッドで動作するブラウザ環境向けに実行することはできず、コード内で `runBlocking` を記述するとエラーになります。
 

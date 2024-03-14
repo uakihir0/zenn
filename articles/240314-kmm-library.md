@@ -29,7 +29,7 @@ https://kotlinlang.org/docs/multiplatform.html
 
 ## 欲しい機能ライブラリがない！
 
-**どうしようもないです。** とはいえ、Kotlin の公式からライブラリが少し提供されているので、それを使って実現できる範囲は決して少なくないです。[AAkira/Kotlin-Multiplatform-Libraries](https://github.com/AAkira/Kotlin-Multiplatform-Libraries) に Kotlin Multiplatform で作成された有名なライブラリがいくつか存在しますが、特定の実行環境は対応していなかったりと、結構残念な気持ちになったりすることがあります。**が、それはチャンスと考えましょう！ 自分が実装して第一人者になりましょう！**
+**どうしようもないです。** とはいえ、Kotlin の公式からライブラリがいくつか提供されているので、それを使って実現できる範囲は決して少なくないです。また、[AAkira/Kotlin-Multiplatform-Libraries](https://github.com/AAkira/Kotlin-Multiplatform-Libraries) に Kotlin Multiplatform で作成された有名なライブラリがいくつか紹介されており参考になります。しかし、特定の実行環境は対応していなかったりと、結構残念な気持ちになったりすることがあります。**が、それはチャンスと考えましょう！ 自分が実装して第一人者になりましょう！**
 
 ## ドキュメントが全然ないんだけど
 
@@ -37,7 +37,7 @@ https://kotlinlang.org/docs/multiplatform.html
 
 https://github.com/uakihir0/kmisskey
 
-このライブラリは、国産 SNS である [Misskey](https://misskey-hub.net/ja/) のクライアントライブラリであり、Misskey の API をこのライブラリを用いて簡単に叩くことができます。上記に貼ったのは Kotlin Multiplatform のコードで、そのまま Kotlin/JVM 環境で動作させることができます。Kotlin/Native の iOS や MacOS 向けには上記の [kmisskey] ライブラリからビルドして出力した [kmisskey-cocoapods](https://github.com/uakihir0/kmisskey-cocoapods) を利用して Cocoapods からインストールできます。また、Kotlin/JS の JavaScript 向けには [kmisskey.js](https://github.com/uakihir0/kmisskey.js) を利用して npm からインストールできます。各々のビルド方法は Github Actions に記載されているので、Gradle を合わせて確認してみてください。
+このライブラリは、日本産の SNS である [Misskey](https://misskey-hub.net/ja/) のクライアントライブラリであり、Misskey の API をこのライブラリを用いて簡単に叩くことができます。上記に貼ったのは Kotlin Multiplatform のコードで、そのまま Kotlin/JVM 環境で動作させることができます。Kotlin/Native の iOS や MacOS 向けには上記の [kmisskey] ライブラリからビルドして出力した [kmisskey-cocoapods](https://github.com/uakihir0/kmisskey-cocoapods) を利用して Cocoapods からインストールできます。また、Kotlin/JS の JavaScript 向けには [kmisskey.js](https://github.com/uakihir0/kmisskey.js) を利用して npm からインストールできます。各々のビルド方法は Github Actions に記載されているので、Gradle を合わせて確認してみてください。
 
 ### (参考) ライブラリはどんな感じで使用できるの？
 

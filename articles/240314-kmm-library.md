@@ -87,23 +87,23 @@ import KmisskeyFactory = kmisskey.work.socialhub.kmisskey.KmisskeyFactory;
 import IRequest = kmisskey.work.socialhub.kmisskey.api.request.i.IRequest;
 ...
 
-    const factory = new KmisskeyFactory();
-    const misskey = factory.instanceUserAccessToken(
-      "https://misskey.io",
-      "CLIENT_SECRET",
-      "ACCESS_TOKEN",
-    );
-    misskey
-      .accounts()
-      .me(new IRequest())
-      .then((res) => {
-        console.log(res);
-      });
+const factory = new KmisskeyFactory();
+const misskey = factory.instanceUserAccessToken(
+  "https://misskey.io",
+  "CLIENT_SECRET",
+  "ACCESS_TOKEN",
+);
+misskey
+  .accounts()
+  .me(new IRequest())
+  .then((res) => {
+    console.log(res);
+  });
 ```
 
 ## Kotlin/JS でのコルーチン動作
 
-Kotlin/JS のブラウザ向けにおいてはコルーチンの動作について難しい部分があります。**一番の難点は `runBlocking` の関数が Kotlin/JS にブラウザ向けビルドでは利用できません。**`runBlocking` は雑に表現すると非同期実行のコードを同期実行に変換するもので、`runBlocking` 内では非同期実行のコード (susupend 関数) を実行することができます。この非同期実行を同期実行に変換するのは、シングルスレッドで動作するブラウザ環境向けに実行することはできず、コード内で `runBlocking` を記述するとエラーになります。
+Kotlin/JS のブラウザ向けにおいてはコルーチンの動作について難しい部分があります。**一番の難点は `runBlocking` の関数が Kotlin/JS にブラウザ向けビルドでは利用できないことです。**`runBlocking` は雑に表現すると非同期実行のコードを同期実行に変換するもので、`runBlocking` 内では非同期実行のコード (susupend 関数) を実行することができます。この非同期実行を同期実行に変換するのは、シングルスレッドで動作するブラウザ環境向けに実行することはできず、コード内で `runBlocking` を記述するとエラーになります。
 
 では、そのまま非同期実行の関数 (susupend 関数) をライブラリとして提供してしまえばいいのでは？ と思うかもしれませんが、この **suspend 関数は JavaScript で Export を明示的に行う `@JsExport` アノテーションに対応しておらず、その関数を JavaScript 上で表現することができません。** また、susupend 関数は Java で使う時にちょっと面倒な形で出力されるので、ライブラリとしてはブロッキングの形で提供する方がシンプルに使うことができてよいのではないかと思います。(これは個人の意見です)
 

@@ -15,26 +15,21 @@ published: false
 
 ## 検索
 
-<table>
-  <tr>
-    <td>
-      ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=16)
-    </td>
-    <td>
-      [meilisearch](https://www.meilisearch.com/)
-    </td>
-  </tr>
-</table>
+|     | 名前 | 補足 |
+| --- | ---- | ---- |
 
-- ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=16) [meilisearch](https://www.meilisearch.com/)
-  - 検索エンジン
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=16) |[meilisearch](https://www.meilisearch.com/)| 検索エンジン |
 
 ## 開発補助
 
-- ![](/images/services/tabnine.png =16x) [tabnine](https://www.tabnine.com/)
-  - AI によるコード補完
+|     | 名前 | 補足 |
+| --- | ---- | ---- |
+
+| ![](/images/services/tabnine.png =16x) | [tabnine](https://www.tabnine.com/) | AI によるコード補完 |
 
 ## テスト
 
-- ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://webhook.site/&size=16) [Webhook.site](https://webhook.site/)
-  - Webhook のテスト
+|     | 名前 | 補足 |
+| --- | ---- | ---- |
+
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://webhook.site/&size=16) | [Webhook.site](https://webhook.site/) | Webhook のテスト |

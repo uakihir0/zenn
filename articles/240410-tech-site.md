@@ -45,7 +45,8 @@ published: true
 | ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://northflank.com/&size=16)     | [northflank](https://northflank.com/)     | コンテナ実行環境  |
 | ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.paperspace.com/&size=16) | [paperspace](https://www.paperspace.com/) | AI/ML 実行環境    |
 | ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://supabase.com/&size=16)       | [supabase](https://supabase.com/)         | Firebase 互換環境 |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://zeabur.com/&size=16)         | [zeabur](https://zeabur.com/)             | コード実行環境    |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://zeabur.com/&size=16)         | [zeabur](https://zeabur.com/)             | アプリ実行環境    |
+| ![](/images/services/heroku.png =16x)                                                       | [heroku](https://www.heroku.com/)         | アプリ実行環境    |
 
 ## CI/CD
 

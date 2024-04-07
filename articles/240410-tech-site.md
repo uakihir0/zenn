@@ -15,7 +15,7 @@ published: false
 
 ## 検索
 
-- <img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=32" width="16" style="margin-right: 4px;"> [meilisearch](https://www.meilisearch.com/)
+- <img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=32" width="16" /> [meilisearch](https://www.meilisearch.com/)
   - 検索エンジン
 
 ## 開発補助

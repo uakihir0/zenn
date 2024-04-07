@@ -23,12 +23,12 @@ published: true
 
 ## データベース
 
-|                                                                                                | 名前                                          | 補足                   |
-| ---------------------------------------------------------------------------------------------- | --------------------------------------------- | ---------------------- |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://planetscale.com/&size=16)       | [planetscale](https://planetscale.com/)       | 分散データベース       |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.cockroachlabs.com/&size=16) | [cockroachdb](https://www.cockroachlabs.com/) | 分散データベース       |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.fauna.com/&size=16)         | [fauna](https://www.fauna.com/)               | 分散データベース       |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://upstash.com/&size=16)           | [upstash](https://upstash.com/)               | サーバレスデータベース |
+|                                                                                                | 名前                                             | 補足                   |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------ | ---------------------- |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://planetscale.com/&size=16)       | [planetscale](https://planetscale.com/)          | 分散データベース       |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.cockroachlabs.com/&size=16) | [Cockroach Labs](https://www.cockroachlabs.com/) | 分散データベース       |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.fauna.com/&size=16)         | [fauna](https://www.fauna.com/)                  | 分散データベース       |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://upstash.com/&size=16)           | [upstash](https://upstash.com/)                  | サーバレスデータベース |
 
 ## 検索
 

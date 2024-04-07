@@ -15,12 +15,23 @@ published: false
 
 ## 検索
 
+<table>
+  <tr>
+    <td>
+      ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=16)
+    </td>
+    <td>
+      [meilisearch](https://www.meilisearch.com/)
+    </td>
+  </tr>
+</table>
+
 - ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=16) [meilisearch](https://www.meilisearch.com/)
   - 検索エンジン
 
 ## 開発補助
 
-- ![](../images/services/tabnine.png =16x) [tabnine](https://www.tabnine.com/)
+- ![](/images/services/tabnine.png =16x) [tabnine](https://www.tabnine.com/)
   - AI によるコード補完
 
 ## テスト

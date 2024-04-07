@@ -8,7 +8,7 @@ published: false
 
 # この記事について
 
-この記事は有用だと感じたサービス・サイトをカテゴリ毎にまとめたものです。筆者が必ずしも使用したものとは限らないので注意してください。
+この記事は有用だと感じたサービス・サイトをカテゴリ毎にまとめたものです。筆者が必ずしも使用したものとは限らないので注意してください。 [AWS](https://aws.amazon.com/jp/)、[GCP](https://cloud.google.com/)、[Azure](https://azure.microsoft.com/) のような有名なサービスはあえて記載していません。
 **お勧めサービスがあればコメントで教えてください。**
 
 ## データベース
@@ -57,10 +57,16 @@ published: false
 
 ## 開発補助
 
-|                                                                                                 | 名前                                           | 補足                |
-| ----------------------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------- |
-| ![](/images/services/tabnine.png =16x)                                                          | [tabnine](https://www.tabnine.com/)            | AI によるコード補完 |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://wakatime.com/&size=16)           | [Wakatime](https://wakatime.com/)              | 開発時間の可視化    |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://tailscale.com/&size=16)          | [tailscale](https://tailscale.com/)            | VPN サービス        |
-| ![](/images/services/snappify.png =16x)                                                         | [snappify](https://snappify.com/)              | スニペットの画像化  |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://imagecompressor.com/ja/&size=16) | [Optimizilla](https://imagecompressor.com/ja/) | 画像の圧縮          |
+|                                                                                        | 名前                                | 補足                |
+| -------------------------------------------------------------------------------------- | ----------------------------------- | ------------------- |
+| ![](/images/services/tabnine.png =16x)                                                 | [tabnine](https://www.tabnine.com/) | AI によるコード補完 |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://wakatime.com/&size=16)  | [Wakatime](https://wakatime.com/)   | 開発時間の可視化    |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://tailscale.com/&size=16) | [tailscale](https://tailscale.com/) | VPN サービス        |
+| ![](/images/services/snappify.png =16x)                                                | [snappify](https://snappify.com/)   | スニペットの画像化  |
+
+## おまけ
+
+|                                                                                        | 名前                                | 補足               |
+| -------------------------------------------------------------------------------------- | ----------------------------------- | ------------------ |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://tailscale.com/&size=16) | [tailscale](https://tailscale.com/) | VPN サービス       |
+| ![](/images/services/snappify.png =16x)                                                | [snappify](https://snappify.com/)   | スニペットの画像化 |

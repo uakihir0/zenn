@@ -2,7 +2,7 @@
 title: "開発に有用なサービスまとめ"
 emoji: "📚"
 type: "idea"
-topics: ["ポエム", "振り返り"]
+topics: ["まとめ", "サービス", "インフラ"]
 published: true
 ---
 

@@ -15,15 +15,15 @@ published: false
 
 ## 検索
 
-- <img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=32" width="16" /> [meilisearch](https://www.meilisearch.com/)
+- ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.meilisearch.com/&size=16) [meilisearch](https://www.meilisearch.com/)
   - 検索エンジン
 
 ## 開発補助
 
-- <img src="../images/services/tabnine.png" width="16" style="margin-right: 4px;"> [tabnine](https://www.tabnine.com/)
+- ![](../images/services/tabnine.png =16x) [tabnine](https://www.tabnine.com/)
   - AI によるコード補完
 
 ## テスト
 
-- <img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://webhook.site/&size=32" width="16" style="margin-right: 4px;"> [Webhook.site](https://webhook.site/)
+- ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://webhook.site/&size=16) [Webhook.site](https://webhook.site/)
   - Webhook のテスト

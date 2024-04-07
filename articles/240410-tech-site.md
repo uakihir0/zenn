@@ -62,5 +62,5 @@ published: false
 | ![](/images/services/tabnine.png =16x)                                                          | [tabnine](https://www.tabnine.com/)            | AI によるコード補完 |
 | ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://wakatime.com/&size=16)           | [Wakatime](https://wakatime.com/)              | 開発時間の可視化    |
 | ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://tailscale.com/&size=16)          | [tailscale](https://tailscale.com/)            | VPN サービス        |
-| ![](/images/services/snappify.svg =16x)                                                         | [snappify](https://snappify.com/)              | スニペットの画像化  |
+| ![](/images/services/snappify.png =16x)                                                         | [snappify](https://snappify.com/)              | スニペットの画像化  |
 | ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://imagecompressor.com/ja/&size=16) | [Optimizilla](https://imagecompressor.com/ja/) | 画像の圧縮          |

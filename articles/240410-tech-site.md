@@ -65,9 +65,11 @@ published: true
 
 ## サイト
 
-|                                                                                      | 名前                               | 補足                 |
-| ------------------------------------------------------------------------------------ | ---------------------------------- | -------------------- |
-| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://streamlit.io&size=16) | [streamlit](https://streamlit.io/) | データ共有サイト構築 |
+|                                                                                          | 名前                                | 補足                 |
+| ---------------------------------------------------------------------------------------- | ----------------------------------- | -------------------- |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://vercel.com&size=16)       | [Vercel](https://vercel.com/)       | フロントエンド環境   |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://www.netlify.com/&size=16) | [netlify](https://www.netlify.com/) | フロントエンド環境   |
+| ![](https://t2.gstatic.com/faviconV2?client=SOCIAL&url=https://streamlit.io&size=16)     | [streamlit](https://streamlit.io/)  | データ共有サイト構築 |
 
 ## テスト
 
